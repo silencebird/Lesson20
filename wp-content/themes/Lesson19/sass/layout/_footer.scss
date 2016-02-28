@@ -1,0 +1,46 @@
+/* Footer */
+
+.site-footer{
+  background-color: #333;
+  color: #9b9999;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.site-footer .footer-logo{
+  width: 40%;
+  float: left;
+  padding-right: 30px;
+  padding-top: 80px;
+}
+.site-footer .footer-logo .footer-widget-area{
+  float:right;
+  padding-top: 10px
+}
+.site-logo{
+  width: 100%;
+}
+
+
+
+/*Site Footer Menus*/
+.site-footer nav ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px dotted #BBB ;
+}
+
+
+.fback-text{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: grey;
+  border-top: 1px solid grey;
+  padding: 20px 0;
+  a{
+    color: #cbcbcb;
+  }
+}

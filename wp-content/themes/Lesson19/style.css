@@ -1,0 +1,42 @@
+/*
+Theme Name: Lesson 19 Theme
+Author: Efimenko Sergey
+Author URI:
+Version: 1.0
+*/
+
+body{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+/*search section*/
+div.secondary-column, div.secondary-column .email{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+div.secondary-column label{
+    position: absolute;
+    left: -9999px;
+}
+div.secondary-column #searchsubmit{
+    background-color: #006ec3 ;
+    color: #FFF;
+    padding: 5px 14px;
+    border: none;
+    vertical-align: top;
+    position: absolute;
+    left: -9999px;
+}
+div.secondary-column #s, div.secondary-column .email{
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #e1e0e0;
+}
+
+

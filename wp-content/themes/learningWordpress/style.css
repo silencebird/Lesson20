@@ -1,0 +1,358 @@
+/*
+Theme Name: My first theme
+Author: Efimenko Sergey
+Author URI:
+Version: 1.0
+*/
+
+
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+body{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+a:link,
+a:visited{
+    color:#006ec3;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    line-height: 1.65em;
+}
+/*General Layout*/
+div.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article.post{
+    border-bottom: 2px dotted #bbbbbb;
+}
+article.post:last-of-type{
+    border-bottom: none;
+}
+
+
+/* Aside Styles*/
+article.post-aside,
+article.post-link{
+    font-size: 125%;
+    background-color: #FFF5CB;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px ;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mini-meta{
+    font-size: 68%;
+    margin: 0;
+    color: #777;
+}
+/* Link Post Format Styles*/
+article.post-link{
+    padding: 0;
+    background-color: #E0EBFF;
+}
+article.post-link a{
+    display: block;
+    padding: 20px;
+
+}
+/* Post Gallery Format Styles*/
+article.post-gallery{
+    background-color: #222;
+    color: #FFF;
+    padding: 20px;
+}
+article.post-gallery img{
+    border: none!important;
+}
+
+article.post-gallery h2{
+    text-align: center;
+}
+
+/* Header */
+.site-header{
+    border-bottom: 2px solid #999 ;
+    background-color: #292929;
+    background-size: cover;
+    box-shadow: inset 0 -6px 0 #1e1e1e;
+}
+
+.site-logo{
+    float: left;
+    padding: 45px 0;
+}
+
+/*Main column*/
+.main-column{
+    width: 60%;
+    float: left;
+}
+
+/*secondary column*/
+.secondary-column{
+    width: 30%;
+    float: right;
+}
+
+.secondary-column .widget-item{
+    padding-bottom:60px;
+}
+
+.secondary-column .widget-title{
+    background-color: #f8f8f8;
+    box-shadow: inset 3px 0 0 #58c93a;
+    padding-left: 20px;
+    color: #6c6969;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.secondary-column .textwidget p{
+    color: #737373;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/*Footer Widget Area*/
+.footer-widget-area{
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+
+.site-footer{
+    border-top: 2px solid #999 ;
+    text-align: center;
+}
+.site-footer .site-logo{
+    float: none;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.site-footer .fback-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a6a6a6;
+    font-weight: 400;
+}
+.site-footer .fback-text a{
+    text-decoration: none;
+    color: #939292;
+    font-weight: 700;
+}
+/*Navigation Menus*/
+
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+.site-nav ul:before, .site-nav ul:after{ content:""; display: table;}
+.site-nav ul:after{ clear: both;}
+.site-nav ul {*zoom: 1;}
+
+.site-nav ul li{
+    list-style:none;
+    float: left;
+}
+
+/*Site Header Menus*/
+
+.site-header nav ul li{
+    margin: 0;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+    display: block;
+    padding: 50px 18px;
+    box-shadow: -1px 0 0 #1d1d1d, inset -1px 0 0 #1d1d1d;
+    border-bottom: 3px solid #292929;
+    border-top: none;
+    text-decoration: none;
+    color: white;
+}
+.site-header nav ul li a:hover{
+   opacity: 0.6;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited{
+
+    border-bottom: 3px solid #58c93a;
+    color: #58c93a;
+}
+
+
+/*Site Footer Menus*/
+.site-footer nav ul li {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #BBB ;
+}
+
+
+/*Page layout*/
+article.page h2{
+    font-size: 300%;
+}
+
+/*Two colomn Title Layout*/
+div.title-column{
+    width: 30%;
+    float: left;
+}
+
+div.text-column{
+    width: 70%;
+    float: right;
+}
+
+/*Info-box Styles*/
+div.info-box{
+    width: 30%;
+    float: right;
+    margin: 0  0 30px 30px;
+    padding: 20px;
+    background-color: #EEE ;
+
+}
+div.info-box h4{
+    margin-bottom: 6px;
+}
+
+div.info-box p{
+    font-size: 85%;
+}
+
+/*Children Links*/
+.children-links{
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+.children-links a:link,
+.children-links a:visited{
+    text-decoration: none;
+}
+
+.children-links ul{
+    float: left;
+}
+
+.children-links li{
+    margin-right: 20px;
+}
+.children-links .parent-link{
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #DDD;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited{
+    color:#333;
+}
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited{
+    border-bottom: 1px solid #DDD;
+    color: #333;
+    cursor: pointer;
+}
+/* Post Styles*/
+
+.aline{
+    padding: 0 20px;
+}
+.post h2{
+    margin-bottom: 0;
+    color: #4f4e4e;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+p.post-info{
+    color: #606060;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+p.post-info a:link,
+p.post-info a:visited{
+    color:#999;
+}
+
+/*Image styles*/
+
+
+.has-thumbnail{
+    position: relative;
+
+}
+.post-thumbnail{
+    padding: 40px 0;
+
+}
+
+
+
+/*search section*/
+div.secondary-column, div.secondary-column .email{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+div.secondary-column label{
+    position: absolute;
+    left: -9999px;
+}
+div.secondary-column #searchsubmit{
+    background-color: #006ec3 ;
+    color: #FFF;
+    padding: 5px 14px;
+    border: none;
+    vertical-align: top;
+    position: absolute;
+    left: -9999px;
+}
+div.secondary-column #s, div.secondary-column .email{
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #e1e0e0;
+}
+
+

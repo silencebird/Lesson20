@@ -1,0 +1,166 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+a:link,
+a:visited{
+  color: #5f5b5b;
+  font-family: 'Lato', sans-serif;
+}
+p{
+  line-height: 1.65em;
+}
+/*General Layout*/
+
+
+article.post{
+  border-bottom: 2px dotted #bbbbbb;
+}
+article.post:last-of-type{
+  border-bottom: none;
+}
+
+
+/* Aside Styles*/
+article.post-aside,
+article.post-link{
+  font-size: 125%;
+  background-color: #FFF5CB;
+  padding: 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px ;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mini-meta{
+  font-size: 68%;
+  margin: 0;
+  color: #777;
+}
+/* Link Post Format Styles*/
+article.post-link{
+  padding: 0;
+  background-color: #E0EBFF;
+}
+article.post-link a{
+  display: block;
+  padding: 20px;
+
+}
+
+/*Page layout*/
+article.page .page-name{
+  background: url('../img/back-name-page.png') no-repeat;
+  background-size: cover;
+}
+
+article.page h2{
+  color: #fefefe;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 30px 20px;
+}
+
+
+
+/*Info-box Styles*/
+div.info-box{
+  width: 30%;
+  float: right;
+  margin: 0  0 30px 30px;
+  padding: 20px;
+  background-color: #EEE ;
+
+}
+div.info-box h4{
+  margin-bottom: 6px;
+}
+
+div.info-box p{
+  font-size: 85%;
+}
+
+/*Children Links*/
+.children-links{
+  padding: 50px 0;
+  font-size: 80%;
+}
+.children-links a:link,
+.children-links a:visited{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+
+}
+
+
+.children-links ul{
+  float: left;
+}
+
+.children-links li+li:before{
+  content: '/';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited{
+  color: #87b672;
+}
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited{
+  border-bottom: 1px solid #DDD;
+  color: #87b672;
+  cursor: pointer;
+}
+/* Post Styles*/
+
+.aline{
+  padding: 0 20px;
+}
+.post h2{
+  margin-bottom: 0;
+  color: #4f4e4e;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+p.post-info{
+  color: #606060;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+p.post-info a:link,
+p.post-info a:visited{
+  color:#999;
+}
+
+/*Image styles*/
+
+
+.has-thumbnail{
+  position: relative;
+
+}
+.post-thumbnail{
+  padding: 40px 0;
+
+}
